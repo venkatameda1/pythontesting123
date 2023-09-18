@@ -9,6 +9,6 @@ steps:
     entrypoint: 'python'
     args: ['-m', 'build']
 artifacts:
-     pythonPackages:
-     - repository: 'https://us-python.pkg.dev/REPOSITORY/pythontesting/sample'
-        paths: ['dist/*'] 
+  pythonPackages:
+  - repository: 'https://us-python.pkg.dev/REPOSITORY/pythontesting/sample'
+     paths: ['dist/*'] 
